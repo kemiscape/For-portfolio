@@ -13,10 +13,9 @@ body {
     background-attachment: fixed;
 }
 .page-container {
-    margin-top: 48rem;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    border: green 2px solid;
 }
 header {
     margin: 0 auto;
