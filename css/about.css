@@ -11,7 +11,72 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-flow: column;
+    margin: 0; 
+    padding: 0;
 }
+
+.content {
+    border: red 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    width: 75%;
+    border: green 2px solid;
+    text-align: center;
+    padding: 16px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    padding: 8px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+
+button {
+    font-size: 0.75rem;
+    background-color: #666;
+    border: none;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.btn-back {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+.last {
+    font-size: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 4px 28px;
+}
+
+
+
+
+/* back up 
+
 .content {
     margin: 0;
     padding: 0;
@@ -84,4 +149,9 @@ a {
 .last {
     bottom: 0;
     font-size: 0.5rem;
-}
+} 
+
+*/
+
+
+
